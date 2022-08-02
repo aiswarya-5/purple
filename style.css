@@ -23,6 +23,10 @@ header .material-icons{
 	justify-content: space-between;
 	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 5%);
 }
+.header1 input:focus{
+	outline:none;
+	color:#6600ff;
+}
 .middle{	
     	margin-left: 4%;
 }
@@ -71,6 +75,61 @@ header .material-icons{
 	margin-left:2%;
 	color: #3f3636;
 }
-.homegif img{
-	    width: 100%;
+.homegif img,.longpic img,.gif img{
+	width: 100%;
+}
+.feature{
+	margin: 2%;
+}
+.featurehead{
+	display: flex;
+    	justify-content: space-between;
+}
+.featurehead span{
+	font-weight: bold;
+    	font-family: monospace;
+}
+#featureheadL{
+	color: #2c414c;	
+    	font-size: 22px;
+	letter-spacing: 1px;
+}
+#featureheadR{
+	color: #e40b81;	
+    	font-size: 15px;
+}
+.pictures{
+	display: flex;
+    	justify-content: space-between;
+	margin-top: 1%;
+}
+.product{
+    	position:relative;
+    	display:inline-block;
+	cursor:pointer;
+}
+.product p{
+	color:#707e86;
+}
+.product span{
+	margin-right:3%;
+}
+.product #price{
+	color:#2c414c;
+	font-weight:bold;
+}
+.product #line{
+	text-decoration: line-through;
+	color:#babec0;
+	font-size:12px;
+}
+.product #off{
+	color:#eb469f;
+	font-size:12px;
+}
+
+.picture{
+	display:flex;
+	justify-content: space-between;
+	width:100%;
 }
