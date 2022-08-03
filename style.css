@@ -43,6 +43,10 @@ header .material-icons{
 	padding-bottom: 8px;  	
     	width: 90%;
 }
+::placeholder {
+	font-size:15px;
+	color:#4e6871;
+}
 .left .material-icons{
 	vertical-align: middle;
 	color: #6e7e8b;
@@ -50,18 +54,43 @@ header .material-icons{
 }
 .right{
 	padding-top: 1%;
-
+	display: flex;
 }
 .right img{
-	width: 22%;
+	width: 78%;
 }
-#heart{
-    margin-left: 17%;
+.heart{
+    	margin-left: 17%;
 }
-::placeholder {
-	font-size:15px;
-	color:#4e6871;
+.dropdown{
+	/*display:none;*/
+	z-index:1;
+	right: 2%;
+	width:18%;
+	background: #fff;
+	position: absolute;
+	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 30%);
 }
+.dropdown button{
+	width: 90%;
+    	color: #fff;
+    	border: none;
+    	padding: 4%;
+    	background-color: #60f;
+	margin:4%;
+}
+.dropdown p{
+	padding: 4%;
+    	font-size: 14px;
+	color:#999592;
+}
+.dropdown a{
+	color: #f7d;
+    	text-decoration: none;
+}
+.smile:hover .dropdown{
+	display:block;
+} 
 .header2{
 	padding: 1%;
     	border-bottom: 2px solid #ececec;
@@ -89,12 +118,12 @@ header .material-icons{
 	font-weight: bold;
     	font-family: monospace;
 }
-#featureheadL{
+.featureheadL{
 	color: #2c414c;	
     	font-size: 22px;
 	letter-spacing: 1px;
 }
-#featureheadR{
+.featureheadR{
 	color: #e40b81;	
     	font-size: 15px;
 }
@@ -114,22 +143,143 @@ header .material-icons{
 .product span{
 	margin-right:3%;
 }
-.product #price{
+.product .price{
 	color:#2c414c;
 	font-weight:bold;
 }
-.product #line{
+.product .line{
 	text-decoration: line-through;
 	color:#babec0;
 	font-size:12px;
 }
-.product #off{
+.product .off{
 	color:#eb469f;
 	font-size:12px;
 }
-
+.overlay {
+    	display:none;
+}
+.product:hover .overlay{
+    	width:94%;
+    	background:#525455;
+    	position:absolute;
+    	bottom:22%;
+	color:#fff;
+    	left:0;
+    	display:block;
+	text-align:center;
+	font-size:15px;
+	padding:3%;
+}
 .picture{
 	display:flex;
 	justify-content: space-between;
 	width:100%;
+}
+.layer1{
+	display: flex;	
+    	padding-bottom: 5%;
+    	border-bottom: 1px solid #dcdcdc;
+}
+.foot-column{
+	margin-top: 2%;
+	margin-left: 4%;
+	margin-right: 11%;
+}
+.foot-column .head{
+	font-size: 13px;
+	font-weight: bold;
+	color:#66767e;
+	cursor:pointer;
+	margin-bottom: 17%;
+}
+.foot-column .subhead{
+	font-size: 11px;
+	color: #767e85;
+	margin-bottom: 15%;
+}
+.foot-column .subhead:hover{
+	cursor:pointer;
+	color: #e40b81;
+}
+.layer1 li{
+	list-style-type:none;
+}
+.layer2{
+	display:flex;
+	padding: 3% 0%;
+}
+.connect{
+	display:flex;   
+    	width: 56%;
+}
+.pay{
+    	color: #66767e;
+    	font-size: 14px;
+    	font-weight: 700;
+	margin-right: 9%;    
+	margin-left: 14%;
+}
+.layer2 img{
+	width: 55%;
+	padding-left: 8%;
+}
+i{
+	color: #fff;
+	border-radius:50%;
+}
+.face{
+    	background: #2d5c9d;
+    	padding: 7px;
+	font-size:13px;
+}
+.twitter{
+    	background: #1c9be9;
+    	padding: 4px;
+	font-size:15px;
+}
+.google{
+    	background: #d54c3f;
+    	padding: 6px;
+	border-radius:54%;
+	font-size:13px;
+}
+.pin{
+    	background: #df0022;
+    	padding: 5px;
+	font-size:15px;
+}
+.mail{
+    	background: #293d4d;
+    	padding: 5px;
+	font-size:15px;
+}
+.youtube{
+    	background: #f70000;
+    	padding: 4px;
+	font-size:15px;
+}
+.insta{
+    	background: #9826b4;
+    	padding: 5px;
+	font-size:15px;
+}
+.link{
+    	background: #007ab5;
+    	padding: 4px;
+	font-size:15px;
+}
+#copyright{
+    	color: #6b7c86;
+    	font-size: 11px;
+	margin-left: 6%;
+}
+
+/*	ACCOUNT PAGE CSS
+.account-container{
+	background-color:#ecdbf6;
+}
+.fillform{
+	margin: auto;
+    	width: 50%;
 }
