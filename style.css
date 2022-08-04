@@ -63,7 +63,7 @@ header .material-icons{
     	margin-left: 17%;
 }
 .dropdown{
-	/*display:none;*/
+	display:none;
 	z-index:1;
 	right: 2%;
 	width:18%;
@@ -275,11 +275,128 @@ i{
 	margin-left: 6%;
 }
 
-/*	ACCOUNT PAGE CSS
-.account-container{
-	background-color:#ecdbf6;
+
+
+
+/* CART PAGE CSS */
+.div searching{
+	margin-top: 8px;
 }
-.fillform{
-	margin: auto;
-    	width: 50%;
+.cart{
+	width: 49%;
+}
+.cart-container{
+	display: flex;
+	margin-top: 3%;
+    	justify-content: space-around;
+}
+.cartproduct{
+	margin-bottom: 3% 0;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 1%);
+}
+.cart-image{
+	align-self: center;
+}
+.cartproduct .details{
+	padding: 3%;
+    	font-size: 13px;
+}
+.cartproduct .details p,.quantity{
+	font-family: monospace;
+    	color: #364a54;
+	margin-top: 2%;
+}
+.quantity{ 
+	color: #2c414c;
+	border: none;
+    	border-bottom: 1px solid #e9eced;
+    	font-size: 14px;
+    	font-family: 'Aqleema-Regular';
+}
+.cartproduct .details .cart-a a{
+	font-family: monospace;
+    	text-decoration: none;
+    	margin-right: 10%;
+}
+.cartproduct .details .cart-a{
+	margin-top: 5%;
+}
+.cart-price h4{
+	color: #454852;
+	font-size:17px;
+	margin-bottom: 9%;
+}
+.cart-price{
+	margin-top: 5%;
+    	margin-left: 2%;
+	padding-left: 4%;
+    	font-size: 80%;
+	border-left: 1px solid #f0f0f0;
+}
+.cart-pricep{
+	margin-top: 2%;
+    	margin-left: 1%;
+    	color: #818181;
+    	font-size: 80%;
+    	text-decoration: line-through;
+}
+.cart-price p{
+	white-space: nowrap;
+}
+.cart-off{
+    	color: #e40b81;
+}
+.symbol{
+    	display: flex;
+    	justify-content: space-between;
+}
+.coupon, .price-details p, .order-total p{
+    	display: flex;
+    	justify-content: space-between;
+	margin-top: 5%;
+	margin-bottom: 6%;
+}
+.cart-form{
+	color: #818181;
+    	font-size: 13px;
+	padding-top: 5%;
+}
+.cart-form button{
+	color: #e40980;
+    	border: none;
+    	background-color: transparent;
+}
+.cart-form input{
+	border: 0;
+}
+.cart-form input:focus{
+	outline:none;
+	color:#6600ff;
+}
+#submitbutn {  
+	font-size: 16px;
+    	font-weight: 700;
+  	background-color: #e40b81;  
+  	color:#fff;  
+	padding: 6%;
+    	margin: 3% 0; 
+  	border: none;  
+  	cursor: pointer;  
+  	width: 100%;  
+}
+#bold-letter{
+	font-size:16px;
+	color:#000;
+}
+#pink-letter{
+	color: #e40980;
+}
+#pink-letters{
+	color: #e40980;
+	font-size:19px;	
+}
+.coupon,.price-details{
+	border-bottom: 1px solid #cbcdcc;
 }
