@@ -315,9 +315,11 @@ i{
 .quantity{ 
 	color: #2c414c;
 	border: none;
-    	border-bottom: 1px solid #e9eced;
     	font-size: 14px;
-    	font-family: 'Aqleema-Regular';
+    	font-family: Verdana, sans-serif;
+}
+select:focus {
+	outline: none;
 }
 .cartproduct .details .cart-a a{
 	font-family: monospace;
@@ -367,7 +369,7 @@ i{
     	font-size: 13px;
 	padding-top: 5%;
 }
-.cart-form button{
+.cart-form button,.login-details button{
 	color: #e40980;
     	border: none;
     	background-color: transparent;
@@ -481,7 +483,7 @@ textarea{
     	text-align: center;
 	margin-bottom: 3%;
 }
-.contact-form ul{   
+ul{   
   	list-style-type:none;
 	padding: 1% 0;
 }
@@ -529,4 +531,117 @@ textarea{
 }
 #but-align{
 	text-align:center;
+}
+
+
+/*	CHECKOUT PAGE CSS */
+
+.checkout-header{
+	background-color: #fff;
+    	position: sticky;
+    	z-index: 1;
+    	top: 0;
+	display:flex;
+	justify-content: space-around;
+	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 5%);	
+}
+.checkout-header-image img{
+	width: 49%;
+}
+.checkout-header-data{
+	display: flex;
+    	font-size: 12px;
+    	color: #6c7a82;
+}
+.checkout-header-data1{
+	align-self: center;
+    	white-space: nowrap;
+    	margin: 2%;
+}
+.checkout-header-data1 .material-icons{
+	font-size: 17px;
+    	vertical-align: bottom;
+}
+.checkout-body{
+	display: flex;
+    	justify-content: space-evenly;
+}
+.checkout-details-data{
+	border: 1px solid #ced4d6;
+	padding-bottom: 4%;
+}
+#checkout-add{
+	padding: 1%;
+	background-color: #f8f9fa;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+}
+.checkout-body{
+	display:flex;
+}
+.checkout-details{
+	flex: 55%;
+	margin: 1% 0% 10% 11%;
+}
+.checkout-details img{
+	margin-left:6%;
+}
+.checkout-order{
+	flex: 30%;
+    	padding: 5%;
+    	color: #868385;
+    	font-size: 13px;
+}
+.checkout-details-data ul{
+	padding: 3% 4% 0%;
+}
+.need-help{
+	border: 1px solid #eef1f1;
+    	padding: 5%;
+    	text-align: center;
+}
+#info,#infom{
+	color:#e40b81;
+	vertical-align: bottom;
+    	font-size: 17px;
+}
+.checkout-details-data form{
+	display: flex;
+    	flex-direction: column;
+}
+.checkout-details-data input[type=text]{  
+  	border: 0;
+  	border-bottom: 1px solid #ced4d6;
+	font-family: Verdana, sans-serif;
+	padding: 2%;
+    	margin: 3%;
+}  
+.checkout-details-data input[type=text]:focus{  
+  	border-bottom: 1px solid #e40b81; 
+  	outline: none;  
+}  
+.submitbutn {  
+	font-size: 17px;
+  	background-color: #e40b81;  
+  	color: #fff;  
+  	padding: 11px 20px;   
+  	border: none;  
+  	cursor: pointer;  
+  	width: 36%;  
+	margin: auto;
+}
+.checkout-details-data p{
+    	padding: 4%;
+    	color: #4e6871;
+}
+.bold-word{
+	margin: 3% 0%;
+    	color: #000;
+}
+.login-details span{
+	color:#8a94a0;	
+	padding-right: 37%;
+}
+.pink-letter{
+	color: #e40980;
 }

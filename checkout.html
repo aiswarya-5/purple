@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">			
+		<link rel="stylesheet" type="text/css" href="asset/icon.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="asset/icon2.js"></script>	
+		<link rel="icon" type="image/x-icon" href="image/titlelogo.jpg">
+		<title>Create New User Account Page</title>
+	</head>
+	<body>
+		<div class="checkout-container">
+			<div class="checkout-header">
+				<div class="checkout-header-image">
+					<img src="image/logo.png" alt="logo">
+				</div>	
+				<div class="checkout-header-data">
+					<div class="checkout-header-data1">
+						<span class="material-icons">lock</span>
+						<span>Secure Payment </span>
+					</div>
+					<div class="checkout-header-data1">
+						<span class="material-icons">verified</span>
+						<span>100% Genuine Products </span>
+					</div>
+					<div class="checkout-header-data1">
+						<span class="material-icons">currency_rupee</span>
+						<span>Cash on Delivery </span>
+					</div>
+				</div>	
+			</div>
+			<!--CHECKOUT-HEADER-->
+			<div class="checkout-body">
+				<div class="checkout-details">
+					<img src="image/checkout1.jpg" alt="checkout">
+					<div class="checkout-details-data">
+						<form>
+							<label id="checkout-add">Add New Address</label>
+								<ul>
+									<li>
+										<select name="amount" class="quantity">
+											<option value="q">Mr</option>
+											<option value="qu">Mrs</option>
+											<option value="qua">Miss</option>
+										</select>
+										<input type="text" name="firstname" placeholder="Name *" required>
+										
+									</li>
+								</ul>
+								<input type="text" name="pin" placeholder="Pincode *" required>
+								<input type="text" name="address" placeholder="Address *" size="10" required>
+								<input type="text" name="land" placeholder="Landmark" required>
+								<ul>
+									<li>
+										<input type="text" name="city" placeholder="City" required> 
+										<input type="text" name="state" placeholder="State" required>
+									</li>
+								</ul>
+								<input type="text" name="phone" placeholder="Mobile *" required>
+								<ul>
+									<li>
+										<label class="quantity">Address Type:</label>
+										<span class="material-icons" id="info">info</span>
+										<select name="amount" class="quantity">
+											<option value="q">Home</option>
+											<option value="qu">Office</option>
+											<option value="qua">Others</option>
+										</select>
+									</li>
+								</ul>
+								<p>Address type preferences are used to plan your delivery. However, shipments
+								can sometimes arrive early or latter then planned.</p>
+								<input type="submit" value="SAVE & CONTINUE" class="submitbutn">
+						</form>
+					</div>
+				</div>
+				<!--CHECKOUT DETAILS-->
+				<div class="checkout-order">
+					<div class="need-help">
+						<span>Need Help? 865555 00222</span>
+					</div>
+					<div class="checkout-form">
+						<div class="login-details">
+							<p class="bold-word">Login Details</p>
+							<span>aiswaryav5997@gmail.com</span>
+							<button>CHANGE</button>
+						</div>
+						<div class="price-details">
+							<span class="bold-word">Price Details</span>
+							<p><span>Total MRP:</span><span>₹1749</span></p>
+							<p><span>Saving on MRP:</span><span class="pink-letter">-₹527</span></p>
+							<p><span>Subtotal:</span><span>₹1222</span></p>
+							<p><span>Shipping Charge<span class="material-icons" id="infom">info</span>:</span><span>Free</span></p>
+							<p><span>Coupon Discount:</span><span class="pink-letter">Applied</span></p>
+						</div>
+						<div class="order-total">
+							<p><span class="bold-letter">Order Total:</span><span class="bold-letters">₹1222</span></p>
+							<p><span>You Save:</span><span class="pink-letter">₹527</span></p>
+						</div>
+					</div>
+
+				</div>
+				<!--CHECKOUT ORDER-->
+			</div>
+			<!--CHECKOUT BODY-->
+		</div>
+		<!-- CHECKOUT-CONTAINER-->
+	</body>
+</html>
