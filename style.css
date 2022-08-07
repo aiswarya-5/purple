@@ -101,13 +101,87 @@ header .material-icons{
 }
 .lists{
 	text-align: center;
-    	font-size: 14px;
+    	font-size: 15px;
     	font-weight: 600;
 }
 .lists span{
 	margin-left:2%;
 	color: #3f3636;
+  	display: inline-block;
+  	position: relative;
 }
+.lists span:hover{
+	color:#6c3795;
+	cursor:pointer;
+}
+.lists span:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #6c3795;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+.lists span:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+.makeup{
+	position: absolute;
+    	width: 100%;
+	z-index:1;
+}
+.makeup-header{
+	margin-top: 1%;
+	display: flex;
+    	background-color: #fff;
+    	justify-content: space-around;
+	padding: 1%;
+    	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 0%);
+}
+.makeup-body{
+	display: flex;
+    	text-align: left;
+	margin-top: 0.1%;
+    	background-color: #fff;
+}
+.face-makeup{
+	margin: 4%;
+	font-size: 15px;
+    	font-weight: 100;
+	cursor:pointer;
+}
+.face-makeup a{
+	text-decoration: none;
+    	color: black;
+}
+.makeup-h{
+	padding-bottom: 7%;
+	font-weight: bold;
+    	font-size: 16px;
+}
+.makeup{
+	display:none;
+}
+.lists:hover .makeup{
+	display:block;
+} 
+.face-makeup p:hover,.face-makeup a:hover{
+	color:#6c3795;
+}
+
+
+
+
+
+
+
+
+
 .homegif img,.longpic img,.gif img{
 	width: 100%;
 }
@@ -644,4 +718,61 @@ ul{
 }
 .pink-letter{
 	color: #e40980;
+}
+
+
+
+
+/* LIST PAGE CSS */
+.list-buttons{
+    	text-align: center;
+    	padding: 1.5%;
+}
+.list-buttons button{
+     	border-radius:15px;
+     	border:1px solid #d5d5d5;
+     	background-color:#fff;
+     	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 0%);
+     	font-family:Bahnschrift;
+	padding: 0.6% 1.5%;
+}
+.header-list{
+	position: sticky;
+    	z-index: 1;
+    	display: flex;
+    	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 5%);
+}
+.middleimage{
+	width: 8%;		
+}
+.middleimage img{
+	width: 100%;		
+}
+.header-list .header2{
+    	margin: auto;
+    	width: 60%;
+	border-bottom:none;
+}
+.header-list .header2 .right-list img{
+	width:100%;
+}
+.right-list{
+	padding-top: 1%;
+    	display: flex;
+	justify-content:center;
+}
+.right-list img{
+	width:100%;
+}
+.right-list .smile,.right-list .menu,.searchtool,.heart-list{
+    	width: 15%;
+}
+#result{
+	font-size:13px;
+	margin-left: 41%;
+     	font-family:Bahnschrift;
+}
+#result #info{
+	color:#e40b81;
+    	font-size: 13px;
 }
