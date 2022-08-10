@@ -250,24 +250,24 @@ header .material-icons{
     	padding-bottom: 5%;
     	border-bottom: 1px solid #dcdcdc;
 }
-.foot-column{
+.foot-column,.foot-columnh{
 	margin-top: 2%;
 	margin-left: 4%;
 	margin-right: 11%;
 }
-.foot-column .head{
+.foot-column .head,.foot-columnh .head{
 	font-size: 13px;
 	font-weight: bold;
 	color:#66767e;
 	cursor:pointer;
 	margin-bottom: 17%;
 }
-.foot-column .subhead{
+.foot-column .subhead,.foot-columnh .subhead{
 	font-size: 11px;
 	color: #767e85;
 	margin-bottom: 15%;
 }
-.foot-column .subhead:hover{
+.foot-column .subhead:hover,.foot-columnh .subhead:hover{
 	cursor:pointer;
 	color: #e40b81;
 }
@@ -1266,9 +1266,6 @@ input[type=checkbox] {
 #fixed-product-right-head p{
     	padding-bottom: 1.5%;
 }
-.rate2{
-	padding: 3% 0;
-}
 #f-price{
 	font-size: 24px;
     	font-weight: bold;
@@ -1498,4 +1495,404 @@ input[type=checkbox] {
     	font-size: 24px;
     	font-weight: 600;
     	padding-bottom: 1%;
+}
+.hiden-header{
+	display:none;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1024px){
+.header-list .header2 {
+    	width: 96%;
+}
+.product-left-picture {
+    	width: 18%;
+}
+.product-middle-picture {
+    	border: none;
+}
+.rate2 {
+    	padding: 1%;
+}
+.best{
+	display:none;
+}
+.shade {
+    	margin: 2% 0%;
+}
+.coral button {
+    	padding: 1%;
+}
+.colors {
+    	margin-top: 3%;
+}
+#whislist-button {
+   	margin: 0%;
+}
+#price {
+    	font-size: 15px;
+}
+#discount {
+    	font-size: 13px;
+}
+.product-middle-picture img{
+	width: 100%;
+}
+#cart-button {
+    	padding: 4% 12%;
+}
+#view-seller,.highlight-details p{
+    	font-size: 11px;
+}
+.offer-details {
+    	width: 55%;
+}
+.progress table td {
+    	white-space: nowrap;
+	padding: 1%;
+}
+#fixed-product-right-head {
+    	font-size: 12px;
+}
+#f-price {
+    	font-size: 15px;
+}
+#f-discount {
+    	font-size: 12px;
+}
+#f-off {
+    	font-size: 9px;
+}
+#fixed-cart-button {
+    	padding: 4% 8%;
+	font-size:13px;
+}
+#fixed-whislist-button {
+    	padding: 2%;
+    	margin: 2%;
+    	font-size: 14px;
+}
+.foot-column {
+    	margin-left: 3%;
+}
+.pay{
+    	margin-left: 11%;
+}
+}
+
+@media screen and (max-width: 768px){
+.middleimage {
+    	width: 17%;
+}
+.product-left-picture img {
+    	width: 68%;
+    	margin-top: 20%;
+}
+.lists {
+    	font-size: 9px;
+}
+.fixed-product {
+	display:none;
+}
+.variant button {
+    	width: 59%;
+}
+.customer-review {
+    	width: 57%;
+}
+.finder {
+    	margin: 7% 5%;
+}
+.write-review button {
+	width: 60%;
+}
+.product-details-container2 form button {
+    	font-size: 13px;
+}
+.product-details-container2 form input {
+    	width: 62%;
+}
+.product-details-container2 form img {
+    	width: 10%;
+}
+.certify img {
+    	width: 72%;
+}
+.highlight-details p {
+    	font-size: 8px;
+    	white-space: nowrap;
+}
+.certify img {
+    	width: 72%;
+}
+#sold {
+    	font-size: 12px;
+}
+.sold img {
+    	width: 38%;
+}
+#avnu, .sold p {
+    	font-size: 10px;
+}
+.offer-details {
+    	width: 72%;
+}
+.rates1 p, .progress-gray {
+    	white-space: nowrap;
+}
+#cart-button {
+    	padding: 4% 9%;
+}
+#whislist-button {
+    	padding: 2%;
+}
+.product-list-links a {
+    	font-size: 11px;
+}
+#product-right-head {
+    	font-size: medium;
+}
+.product-middle-picture {
+    	border: none; 
+}
+.lipproduct {
+    	padding: 0%;
+    	width: 24%;
+}
+.lipproduct img{
+	width: 86%;
+}
+.lipproduct p {
+    	font-size: 13px;
+}
+.secure {
+    	width: 21%;
+}
+.secure img {
+    	width: 58%;
+}
+.secure1 {
+    	font-size: 17px;
+}
+.secure2 {
+    	font-size: 8px;
+}
+.spotlight img{
+    	width: 86%;
+}
+.foot-column .head {
+    	font-size: 10px;
+}
+.foot-column {
+    	margin-left: 2%;
+}
+.pay{	
+    	margin-right: 4%;
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+.middleimage {
+    width: 33%;
+}
+header .material-icons {
+    	font-size: 14px;
+}
+.reviews{
+    margin: 5%;
+}
+.review-progress {
+    display: block;
+}
+#contact, #download, #track {
+    	font-size: 9px;
+}
+.rates {
+    padding-top: 4%;
+}
+.header2{
+    	display: none;
+}
+.product-right {
+    display:none;
+}
+.header{
+	display:none;
+}
+.hiden-header{
+    display: flex;
+    margin: auto;
+    font-size: 11px;
+}
+.hiden-header span{
+    margin-left: 7%;
+    color: #3f3636;
+}
+.product-left-picture {
+    width: 37%;
+}
+.product-list-links {
+    display: none;
+}
+.product-right {
+    display:none;
+}
+#cart-button {
+    padding: 3% 8%;
+}
+.colors {
+    margin: 3%;
+}
+.product-details-container {
+    display: block;
+    margin: 2%;
+}
+.product-right-hiden{
+    margin: 3%;
+}
+.highlight-details p {
+    font-size: 12px;
+    white-space: normal;
+}
+#cart-button {
+    padding: 3% 5%;
+}
+#whislist-button {
+    padding: 2% 0%;
+}
+.expiry {
+    padding: 4%;
+    width: 74%;
+}
+.rates1 p, .progress-gray {
+    font-size: 15px;
+}
+.rates1 #bold {
+    font-size: 16px;
+}
+.review-head {
+    font-size: 16px;
+}
+.highlight-head {
+    font-size: 16px;
+}
+.product-details-container2 {
+    width: 100%;
+    margin: 2%;
+}
+.product-details-container2 form img {
+    vertical-align: middle;
+}
+.product-details-container2 form button {
+    font-size: 17px;
+}
+#sold {
+    font-size: 12px;
+}
+#avnu, .sold p {
+    font-size: 11px;
+}
+.sold img {
+    width: 40%;
+}
+#view-seller, .highlight-details p {
+    font-size: 10px;
+    padding-top: 2%;
+}
+.offer-details {
+    width: 80%;
+}
+.narrow-review{
+    margin: 4%;
+}
+.review-head-button button {
+    margin: 1%;
+	font-size: 13px;
+}
+.certify{
+    padding: 0 0.7%;
+}
+.progress-gray{
+display:none;
+}
+.long {
+    color: #312727;
+    font-size: 11px;
+}
+.progress-head {
+    font-size: 15px;
+}
+.certify p {
+    font-size: 10px;
+}
+.customer-image{
+    margin: 4%;
+}
+.customer-img img {
+    width: 24%;
+}
+.variant button {
+    width: 74%;
+}
+.customer-review {
+    width: 96%;
+}
+.buyer-certify .material-icons {
+    font-size: 11px;
+}
+.buyer-certify {
+    font-size: 10px;
+    color: #988989;
+}
+.write-review button {
+    width: 87%;
+}
+.lip-picture {
+    display: block;
+}
+.lipproduct {
+    padding: 4%;
+    width: 56%;
+    margin: auto;
+}
+.lipproduct p {
+    font-size: 15px;
+}
+.foot {
+    display: block;
+}
+.secure{
+    width: 50%;
+    margin: auto;
+}
+.secure img {
+    width: 78%;
+}
+.finder {
+    display: block;
+    text-align: center;
+}
+.foot-column .head {
+	white-space: nowrap;
+font-size: 9px;
+}
+.foot-columnh {
+    display: none;
+}
+.layer2 {
+    display: block;
+}
+.connect {
+    display: block;
+    width: 100%;
+}
+#icon{
+    text-align: center;
+}
+.layer2 {
+    display: block;
+    text-align: center;
+}
 }
