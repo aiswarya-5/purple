@@ -956,6 +956,7 @@ input[type=checkbox] {
 }
 .product-mainbody{
 	background-color: #f7f7f7;
+	padding-bottom: 5%;
 }
 .product-body{
 	background-color: #fff;
@@ -996,11 +997,11 @@ input[type=checkbox] {
 	font-size: 16px;
     	color: #cc0f99;
 }
-.rate1 #different-star{
+#different-star1,#different-star2{
 	font-size: 16px;
     	color: #ced4d6;
 }
-.rate1 #star-r{
+.rate1 .star-r{
 	font-size: 12px;
 	color:#2d4350;
 }
@@ -1018,6 +1019,9 @@ input[type=checkbox] {
 #off{
 	font-size: 13px;
     	color: #cc0f99;
+}
+.progress-h{
+	padding-left: 2%;
 }
 .best button{
 	color: #6d0bff;
@@ -1072,7 +1076,7 @@ input[type=checkbox] {
 	margin: 0.5%;
 }
 #cart-button{
-	padding: 4% 15%;
+	padding: 4% 14%;
     	border-radius: 8px;
     	font-weight: 700;
     	border: none;
@@ -1095,6 +1099,7 @@ input[type=checkbox] {
 .purchase{
 	display:flex;
 	background-color:#fff;
+	margin-top: 7%;
 }
 .certify img{
 	width:58%;	
@@ -1125,10 +1130,12 @@ input[type=checkbox] {
 .highlight-head{
 	font-size: 18px;
     	font-weight: bold;
-	margin: 3% 0 1% 0;
+	margin: 3% 0;
 }
 .highlight-details p{
-	margin-bottom: 0.5%;
+	margin-bottom: 1%;
+	font-size: 14.5px;
+    	color: #312727;
 }
 .adding{
 	display: flex;
@@ -1152,6 +1159,9 @@ input[type=checkbox] {
 	padding: 1%;
     	border: 2px dashed #e9e7e7;
     	margin: 1% 0;
+	width: 50%;
+    	border-radius: 8px;
+    	font-weight: 700;
 }
 .expiry span{
 	font-size: 13px;
@@ -1163,17 +1173,17 @@ input[type=checkbox] {
     	justify-content: space-between;
     	padding: 2%;
     	border-radius: 8px;
-    	margin: 2% 0;
+    	margin: 7% 0;
 }
 #sold{
 	color: #988989;
     	font-size: 13px;
 }
-#avanu,.solid p{
+#avnu,.sold p{
 	font-size: 13px;
     	color: #312727;
 }
-.solid img{
+.sold img{
 	width: 41%;
 }
 #view-seller{
@@ -1192,7 +1202,7 @@ input[type=checkbox] {
     	width: 7%;
     	vertical-align: middle;
 }
-#id{
+#flat{
 	color: #312727;
     	font-size: 13px;
 }
@@ -1200,9 +1210,15 @@ input[type=checkbox] {
 	text-decoration: underline;
     	font-size: 15px;
 }
+#day{
+	padding-left: 18%;
+}
+#genuine{
+	padding-left: 9%;
+}
 .product-details-container2{
-	width: 41%;
-    	padding: 1%;
+	width: 40%;
+    	margin-left: 3%;
 }
 #elite{
 	width: 87%;
@@ -1213,6 +1229,7 @@ input[type=checkbox] {
 	padding:3%;
 	border: 1px solid #ebe9e9;
     	border-radius: 6px;
+	margin-top: 3%;
 }
 .product-details-container2 form img{
 	width: 7%;
@@ -1236,4 +1253,249 @@ input[type=checkbox] {
 .product-details-container2 form input::placeholder{
 	color:#9b8d8d;
 	font-size:13px;
+}
+.rates span{
+	font-size: 18px;
+    	color: #cc0f99;
+	padding-bottom: 3%;
+}
+#fixed-product-right-head{
+    	font-weight: bold;
+    	font-size: 15px;
+}
+#fixed-product-right-head p{
+    	padding-bottom: 1.5%;
+}
+.rate2{
+	padding: 3% 0;
+}
+#f-price{
+	font-size: 24px;
+    	font-weight: bold;
+}
+#f-discount{
+	color: #ced4d6;
+    	text-decoration: line-through;
+}
+#f-off{
+	font-size: 13px;
+    	color: #cc0f99;
+}
+.review-progress{
+	display: flex;
+    	margin-top: 2%;
+    	width: 100%;
+}
+.review-head{
+	font-size: 18px;
+    	font-weight: 700;
+    	width: 45%;
+}
+.rates{
+	padding-top: 7%;
+}
+.rates1 #bold{
+	font-size: 15px;
+	color:#000;
+}
+.rates1 p,.progress-gray{
+    	font-size: 13px;
+    	padding-bottom: 0.5%;
+    	color: #988989;
+}
+.progress{
+	flex: 30%;
+	margin: 0 3%;
+}
+.progress-head{
+	color: #312727;
+    	font-size: 16px;
+    	font-weight: 700;
+}
+.long{
+	color: #312727;
+    	font-size: 13px;
+}
+.progress table td{
+	padding: 1.5%;
+	width:2%;
+}
+#fixed-cart-button{
+	padding: 4% 10%;
+    	border-radius: 8px;
+    	font-weight: 700;
+    	border: none;
+    	color: #fff;
+	font-size: 17px;
+    	background-color: #60f;
+}
+#fixed-whislist-button{
+    	background-color: #fff;
+    	padding: 3%;
+    	margin: 2%;
+	font-size: 17px;
+    	border-radius: 8px;
+    	border: 1px solid #798496;
+}
+#fixed-whislist-button img{
+	vertical-align: middle;
+    	width: 21%;
+}
+.fixed-product{
+	flex: 20%;
+    	border: 1px solid #ece8e8;
+    	padding: 1%;
+}
+.fix-product{
+	display: flex;
+}
+#fixed-product-image{
+	width:37%;
+}
+#fixed-product-image img{
+    	width: 80%;
+    	border: 1px solid #ece8e8;
+}
+.review-head-button{
+    	padding: 1.5% 0;
+}
+.review-head-button button{
+    	border-radius: 22px;
+    	border: 1px solid #d5d5d5;
+    	background-color: #fff;
+    	padding: 0.8% 1.5%;
+	font-size: 14px;
+}
+.customer-img img{
+	width: 6%;
+	margin: 2% 1%;
+}
+.variant button{
+	border-radius: 4px;
+    	border: 1px solid #ece8e8;
+    	padding: 1.5%;
+    	width: 48%;
+    	text-align: left;
+    	margin-top: 1%;
+}
+.customer-review{
+    	border: 1px solid #baafaf;
+    	width: 48%;
+    	padding: 1%;
+    	border-radius: 6px;
+	margin: 1% 0;
+}
+.review-details1{
+    	display: flex;
+    	justify-content: space-between;
+}
+.profile{
+    	display: flex;
+}
+.pro-pic{
+    	width: 20%;
+}
+.pro-pic img{
+    	width: 87%;
+}
+.details .name{
+	font-weight: 700;
+    	padding-bottom: 0.5%;
+}
+.circle .material-icons{
+	vertical-align: middle;
+    	color: #ce7062;
+    	font-size: 16px;
+}
+.trophy{
+    	text-decoration: underline;
+    	font-size: 13px;
+}
+.rate-star {
+    	padding-top: 2%;
+}
+.rate-star span{
+    	font-size: 11px;
+    	color: #cc0f99;
+    	padding-bottom: 3%;
+}
+.rate-star .star-review {
+    	font-size: 13px;
+    	color: #000;
+}
+.buyer-certify{
+    	font-size: 13px;
+    	color: #988989;
+}
+.buyer-certify .material-icons{
+	vertical-align: text-top;
+    	color:  #988989;
+    	font-size: 14px;
+}
+.review-details2{
+    	font-size: 14px;
+    	padding: 2% 0;
+    	border-bottom: 1px solid #dbdbdb;
+}
+.review-details2 p{
+	padding-bottom: 0.5%;
+}
+.review-details3{
+    	color: #16BE48;
+    	font-size: 13px;
+    	padding: 2%;
+}
+.review-details3 .material-icons{
+    	font-size: 13px;
+}
+#review-list{
+	font-size: 13px;
+	color: #6600FF;
+}
+.write-review{
+	margin:3% 0;
+}
+.write-review p{
+	font-size: 18px;
+    	font-weight: bold;
+}
+.write-review button{
+    	background-color: #fff;
+    	padding: 1.5% 8%;
+    	margin: 2% 0;
+	font-size: 16px;
+    	border-radius: 8px;
+	color: #6600FF;
+    	border: 1px solid #6600FF;
+}
+.secure{
+	padding-top: 3%;
+}
+.secure img{
+	padding-left: 6%;
+}
+.secure1{
+    	font-size: 24px;
+    	color: #2C414C;
+    	font-family: serif;
+}
+.secure2{
+    	font-size: 14px;
+    	color: #2C414C;
+    	font-family: serif;
+}
+.foot{
+    	display: flex;
+	justify-content: space-around;
+}
+.finder{
+	display: flex;
+    	justify-content: space-around;
+	margin: 7% 0;
+}
+.finder p{
+    	font-family: serif;
+    	font-size: 24px;
+    	font-weight: 600;
+    	padding-bottom: 1%;
 }
