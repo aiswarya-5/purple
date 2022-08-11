@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">			
 		<link rel="stylesheet" type="text/css" href="asset/icon.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">			
+		<link rel="stylesheet" type="text/css" href="asset/font.css">
 		<script src="asset/icon2.js"></script>	
 		<link rel="icon" type="image/x-icon" href="image/titlelogo.jpg">
 		<title>Create New User Account Page</title>
 	</head>
-	<body>
-		<div class="account-container">
-			<div class="fillform">
-				<div class="heading">
-					<h1>Welcome Aboard</h1>
-					<h4>Let's know you the better and make sure that you </h4>
-					<h4>never lose access to your account</h4>
+	<body class="login-body">
+		<div class="login-container">
+			<div class="login">
+				<div class="login-heading">
+					<span>Login/Create Account</span><i class="fa fa-close"></i>
 				</div>
 				<form>
-					<label>Enter Your Name</label>
-					<input type="text" name="firstname" required>
-					<label>Enter Email</label>
-					<input type="text" name="email" required>
-					<label>Mobile No</label>
-					<input type="text" name="phone" size="10"/ required>
-					<label>Create Password</label>
-					<input type="password" name="psw" required>
-					<div>
-						<input type="radio" value="male" name="gender" checked > Male   
-						<input type="radio" value="female" name="gender"> Female   
-					</div>    
-					<input type="submit" value="SUBMIT" class="submitbutn">
-					<a href="#"> Back To Login</a>
+					<input type="text" name="firstname" placeholder="Enter Your Mobile No" required>
+					<span class="material-icons">arrow_circle_right</span> 
 				</form>
-				<form>  
-
-
-<i class="fa fa-close" style="font-size:36px"></i>
+				<div id="connect">or connect with</div>
+				<div class="login-buttons">
+					<button id="facebook"><i class="fa fa-facebook-square face"></i>FACEBOOK</button>
+					<button id="google"><i class="fab fa-google fa-3x"></i>GOOGLE</button>
+				</div>
 			</div>
 		</div>
-		<!-- ACCOUNT-CONTAINER-->
+		<!-- LOGIN-CONTAINER-->
 	</body>
 </html>

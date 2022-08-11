@@ -1496,9 +1496,141 @@ input[type=checkbox] {
     	font-weight: 600;
     	padding-bottom: 1%;
 }
-.hiden-header{
+.hiden-header,product-right-hiden{
 	display:none;
 }
+/* registration Page */
+.reg-body{
+     	background-image: url("./image/background1.png");
+  	background-repeat: no-repeat;
+}
+.registration{
+    	padding: 2% 3% 0.5% 3%;
+    	margin: 1% auto;
+    	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 39%);
+    	width: 28%;
+    	background-color: #fff;
+}
+.registration form {
+    	margin: 9% 0;
+    	padding: 6px 0px;
+    	display: flex;
+    	flex-direction: column;
+}
+.registration input[type=text],.registration input[type=password] {
+        border: 0;
+    	border-bottom: 1px solid #ced4d6;
+    	font-family: Verdana, sans-serif;
+    	padding: 2%;
+    	margin: 1% 1% 3% 1%;
+}
+.registration input[type=text]:hover,.registration input[type=password]:hover {
+	border-bottom: 1px solid #e40b81;
+}
+.registration input[type=text]:focus,.registration input[type=password]:focus{
+	outline:none;
+}
+input[type=radio] {
+    	accent-color: #e40b81;
+}
+.registration-submitbutn {
+    	font-size: 16px;
+    	font-weight: 700;
+    	background-color: #e40b81;
+    	color: white;
+    	padding: 16px 20px;
+    	margin: 8px 0;
+    	border: none;
+    	cursor: pointer;
+}
+.registration form a {
+    	color: #e40b81;
+    	text-decoration: none;
+	text-align: center;
+}
+.registration-heading i {
+    	font-size: 42px;
+    	color: #2c414c;
+    	position: absolute;
+    	right: 30%;
+    	top: 1%;
+}
+/* Login Page */
+.login-body{
+     	background-image: url("./image/background1.png");
+  	background-repeat: no-repeat;
+	background-size: cover;
+}
+.login-heading i {
+    	font-size: 42px;
+    	color: #2c414c;
+    	position: absolute;
+    	right: 28%;
+    	top: 14%;
+}
+.login-heading span {
+    	color: #2C414C;
+    	font-size: 25px;
+    	font-family: sans-serif;
+}
+.login-buttons button {
+    	color: #6C7A82;
+    	background-color: #fff;
+    	font-size: 16px;
+    	border: none;
+    	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 11%);
+}
+.login-buttons #facebook i{
+    	color: #3b569d;
+    	background: #fff;
+    	font-size: 21px;
+}
+#facebook{
+    	padding: 1.5% 4%;
+    	margin-right: 3%;
+}
+#google{
+    	padding: 4% 5%;
+}
+.login form{
+    	margin: 9% 0;
+    	padding: 6px 0px;
+}
+.login-buttons #google i{
+    	font-size: 19px;
+}
+.login input{
+    	border: none;
+    	border-bottom: 1px solid #D6D6D6;
+    	padding: 6px 0px;
+    	width: 83%;
+}
+.login input:focus{
+    	border: none;
+	outline:none;
+}
+.login-buttons{
+    	margin: 3%;
+    	text-align: center;
+}
+.login form span{
+    	font-size: 50px;
+    	color: #D6D6D6;
+    	vertical-align: middle;
+}
+.login{
+	padding: 6%;
+    	margin: 7% auto;
+    	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(59 63 66 / 39%);
+    	width: 26%;
+	background-color: #fff;
+}
+#connect{
+    	text-align: center;
+    	color: #96A0A6;
+    	font-size: 16px;
+}
+
 
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px){
@@ -1576,7 +1708,7 @@ input[type=checkbox] {
     	margin-left: 3%;
 }
 .pay{
-    	margin-left: 11%;
+	margin-left: 11%;
 }
 }
 
@@ -1689,13 +1821,14 @@ input[type=checkbox] {
 .pay{	
     	margin-right: 4%;
 }
+.foot-column .head, .foot-columnh .head {
+    font-size: 10px;
 }
-
-
+}
 
 @media screen and (max-width: 320px){
 .middleimage {
-    width: 33%;
+    	width: 33%;
 }
 header .material-icons {
     	font-size: 14px;
