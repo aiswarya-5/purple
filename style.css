@@ -2003,6 +2003,9 @@ input[type=radio] {
 .login {
     	width: 75%;
 }
+.product p, .lipproduct p {
+    	font-size: 14px;
+}
 .login-heading span {
     	font-size: 18px;
 }
@@ -2047,7 +2050,7 @@ input[type=radio] {
     	font-size: 7px;
 }
 .featurehead span {
-    	font-size: 17px;
+    	font-size: 15px;
 }
 .pictures {
     	margin-top: 10%;
