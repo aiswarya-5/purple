@@ -641,9 +641,6 @@ ul{
 	font-family: Verdana, sans-serif;
 	font-size: 14px;
 }
-.checkout-body{
-	display:flex;
-}
 .checkout-details{
 	flex: 55%;
 	margin: 1% 0% 10% 11%;
@@ -848,6 +845,9 @@ input[type=checkbox] {
 }
 .brand span,.brand-last span,.coral button span{
 	vertical-align: middle;
+}
+.hidden-brand{
+	display:none;
 }
 .brand{
     	border-right: 1px solid #dcdcdc;
@@ -1496,7 +1496,7 @@ input[type=checkbox] {
     	font-weight: 600;
     	padding-bottom: 1%;
 }
-.hiden-header,product-right-hiden{
+.hiden-header,.product-right-hiden{
 	display:none;
 }
 /* registration Page */
@@ -1629,11 +1629,38 @@ input[type=radio] {
     	text-align: center;
     	color: #96A0A6;
     	font-size: 16px;
-}
-
-
-/* MEDIA QUERY */
+}										/* MEDIA QUERY */
 @media screen and (max-width: 1024px){
+.registration-heading h1{
+    	font-size: 29px;
+}
+.registration-heading i {
+    	font-size: 29px;
+    	right: 30%;
+    	top: 2%;
+}
+.registration-heading p{
+    	font-size: 14px;
+    	white-space: nowrap;
+}
+.login{
+	width: 32%;
+}
+.login-heading i {
+    	right: 24%;
+}
+.left {
+    	width: 25%;
+}
+.brand p,brand-last p{
+    	white-space: nowrap;
+}
+.brand-toggle {
+    	margin-right: 13%;
+}
+.cart-price {
+    	flex: 25%;
+}
 .header-list .header2 {
     	width: 96%;
 }
@@ -1711,8 +1738,152 @@ input[type=radio] {
 	margin-left: 11%;
 }
 }
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){                     
+.registration-heading h1 {
+    	font-size: 25px;
+}
+.registration-heading p {
+	font-size: 10px;
+}
+.registration form label{
+    	font-size: 14px;
+}
+.gender{
+    	font-size: 14px;
+}
+input[type=radio] {
+    	vertical-align: middle;
+}
+.registration-submitbutn {
+    	font-size: 14px;
+    	padding: 13px 20px;
+}
+.registration form a {
+    	font-size: 13px;
+}
+.registration {
+	width: 36%;
+}
+.registration-heading i {
+    	font-size: 18px;
+    	right: 6%;
+}
+.login{
+    	width: 42%;
+}
+.login-heading i {
+    	font-size: 39px;
+    	right: 18%;
+    	top: 11%;
+}
+.left {
+    	width: 32%;
+}
+.left input {
+    	width: 76%;
+}
+.pictures {
+    	display: block;
+}
+.product {
+    	margin-left: 3%;
+}
+.brand-last {
+    	display: none;
+}
+.brand-toggle {
+    	margin-right: 0%;
+}
+.lipstick-lists {
+    	top: 10%;
+}
+#map img {
+    	width: 100%;
+}
+#reachdata {
+    	margin: auto 5%;
+    	font-size: 11px;
+}
+.checkout-details {
+    	width: 50%;
+}
+.checkout-details img {
+    	margin-left: 0%;
+    	width: 100%;
+}
+.submitbutn {
+    	font-size: 16px;
+    	width: 63%;
+}
+.checkout-order {
+    	flex: 33%;
+}
+.cart {
+    	margin: auto;
+    	width: 77%;
+}
+.cart-container {
+    	display: block;
+}
+.cart-order{
+    	width: 51%;
+    	margin: 8% auto;
+}
+.cart-form button{
+    	margin-left: 28%;
+}
+.symbol {
+    	justify-content: space-around;
+}
+.cartproduct {
+    	display: block;
+    	margin-bottom: 8%;
+}
+.cart h3{
+	text-align: center;
+}
+.cart-image{
+	text-align: center;
+    	width: 58%;
+}
+.cart-image img{
+    	width: 100%;
+       	margin-left: 29%;
+    	margin-top: 6%;
+}
+.cartproduct .details {
+    	font-size: 14px;
+}
+.cart-price h4 {
+    	font-size: 22px;
+    	margin-bottom: 2%;
+}
+.cart-price p {
+    	padding-bottom: 11%;
+}
+.cart-order {
+    	width: 71%;
+    	margin: 4%;
+}
+.cart-image {
+    	width: 16%;
+}
+.cart-symbol{
+	font-size: 12px;
+    	margin-top: 5%;
+}
+.cart-symbol h4{
+	text-align: center;
+}
+.cart-form button {
+    	margin-left: 5%;
+    	white-space: nowrap;
+    	font-size: 7px;
+}
+.cart-order {
+    	width: 76%;
+    	margin-left: 9%;
+}
 .middleimage {
     	width: 17%;
 }
@@ -1822,11 +1993,231 @@ input[type=radio] {
     	margin-right: 4%;
 }
 .foot-column .head, .foot-columnh .head {
-    font-size: 10px;
+    	font-size: 10px;
 }
-}
-
+}									
 @media screen and (max-width: 320px){
+.registration {
+    	width: 67%;
+}
+.login {
+    	width: 75%;
+}
+.login-heading span {
+    	font-size: 18px;
+}
+.login-heading i {
+    	font-size: 23px;
+    	right: 12%;
+    	top: 8%;
+}
+.login input {
+    	width: 72%;
+}
+.login form span {
+    	font-size: 39px;
+}
+#connect {
+ 	font-size: 13px;
+}
+#facebook {
+    	font-size: 11px;
+}
+.login-buttons #facebook i {
+    	font-size: 13px;
+}
+.login-buttons #google i {
+    	font-size: 15px;
+}
+#google {
+    	font-size: 11px;
+}
+.left {
+    	margin: 2%;
+    	border-bottom: none;
+}
+.left input{
+    	display: none;
+}
+.foot-column {
+    	margin-left: 2%;
+    	margin-right: 2%;
+}
+.foot-column .subhead, .foot-columnh .subhead {
+    	font-size: 7px;
+}
+.featurehead span {
+    	font-size: 17px;
+}
+.pictures {
+    	margin-top: 10%;
+    	text-align: center;
+}
+.hidden-brand{
+	display:block;
+	margin: 2%;
+}
+.hidden-brand span{
+	font-size: 32px;
+}
+.brand{
+	display:none;
+}
+.brand-last {
+    	display: block;
+	margin: 2%;
+}
+.brand-last p{
+    	font-size: 11px;
+}
+.brand-toggle {
+    	margin: auto;
+}
+.brand-last span{
+    	vertical-align: middle;
+    	font-size: larger;
+}
+.pink-letter {
+    	color: #e40980;
+    	font-size: 14px;
+}
+#liphead {
+    	font-size: 23px;
+}
+.lipstickheadl {
+    	font-size: 16px;
+    	letter-spacing: 4px;
+}
+.lipproduct img {
+    	width: 100%;
+}
+#result {
+    	font-size: 9px;
+    	margin-left: 24%;
+    	white-space: nowrap;
+}
+#result #info {
+    	font-size: 11px;
+}
+.right-list {
+    	justify-content: space-evenly;
+}
+.lipstickheading {
+    	text-align: center;
+   	margin: 7% 1% 6% 1%;
+}
+.list-buttons {
+	display:none;
+}
+.homegif{
+    	margin-top: 2%;
+}
+.lipstick-lists {
+    	top: 9%;
+}
+#reachus {
+    	font-size: 26px;
+}
+#map {
+    	width: 91%;
+    	display: block;
+}
+#map img {
+    	width: 99%;
+    	margin: 4%;
+}
+#reachdata {
+    	font-size: 15px;
+}
+#work1 {
+    	font-size: 26px;
+}
+#work2 {
+    	font-size: 13px;
+}
+#p1 {
+    	font-size: 25px;
+}
+#p2 {
+    	font-size: 11px;
+}
+#p3 {
+    	font-size: 12px;
+}
+.contactus-form {
+    	margin-left: 1%;
+}
+.contact-form label {
+    	font-size: 10px;
+    	margin-left: 8%;
+    	white-space: nowrap;
+	text-align: left;
+}
+.contact-form input[type=text] {
+    	font-size: 14px;
+    	width: 68%;
+    	margin-left: 8%;
+}
+textarea {
+    	width: 85%;
+    	margin-left: 8%;
+}
+.contactsub, .contactcan {
+    	font-size: 12px;
+    	padding: 6px 11px;
+}
+.checkout-body {
+    	display: block;
+}
+.checkout-details {
+    	width: 80%;
+}
+.checkout-order {
+    	padding: 8%;
+    	margin-left: 5%;
+}
+.checkout-header {
+    	width: 100%;
+}
+.checkout-header-image{
+    	display: none;
+}
+#checkout-add {
+    	font-size: 11px;
+}
+.checkout-header-data1 {
+    	font-size: 0px;
+}
+::placeholder{
+	font-size:10px;
+}
+.quantity {
+    	font-size: 11px;
+}
+.checkout-header-data1 {
+    	margin: 1%;
+}
+.checkout-header-data1 .material-icons {
+    	font-size: 13px;
+}
+.checkout-header-data1 span{
+    	font-size: 9px;
+}
+.checkout-details-data input[type=text] {
+    	padding: 2%;
+    	margin: 2% 5%;
+    	width: 62%;
+}
+.checkout-details-data p {
+    	font-size: 11px;
+}
+.submitbutn {
+    	font-size: 13px;
+    	width: 69%;
+}
+.login-details span {
+    	padding-right: 13%;
+}
 .middleimage {
     	width: 33%;
 }
@@ -1834,198 +2225,206 @@ header .material-icons {
     	font-size: 14px;
 }
 .reviews{
-    margin: 5%;
+    	margin: 5%;
 }
 .review-progress {
-    display: block;
+    	display: block;
 }
 #contact, #download, #track {
     	font-size: 9px;
 }
 .rates {
-    padding-top: 4%;
+    	padding-top: 4%;
 }
 .header2{
     	display: none;
 }
 .product-right {
-    display:none;
+    	display:none;
 }
 .header{
 	display:none;
 }
 .hiden-header{
-    display: flex;
-    margin: auto;
-    font-size: 11px;
+    	display: flex;
+    	margin: auto;
+    	font-size: 11px;
 }
 .hiden-header span{
-    margin-left: 7%;
-    color: #3f3636;
+    	margin-left: 7%;
+    	color: #3f3636;
 }
 .product-left-picture {
-    width: 37%;
+    	width: 37%;
 }
 .product-list-links {
-    display: none;
+    	display: none;
 }
 .product-right {
-    display:none;
+    	display:none;
 }
 #cart-button {
-    padding: 3% 8%;
+    	padding: 3% 8%;
 }
 .colors {
-    margin: 3%;
+    	margin: 3%;
 }
 .product-details-container {
-    display: block;
-    margin: 2%;
+    	display: block;
+    	margin: 2%;
 }
 .product-right-hiden{
-    margin: 3%;
+    	margin: 3%;
 }
 .highlight-details p {
-    font-size: 12px;
-    white-space: normal;
+    	font-size: 12px;
+    	white-space: normal;
 }
 #cart-button {
-    padding: 3% 5%;
+    	padding: 3% 5%;
 }
 #whislist-button {
-    padding: 2% 0%;
+    	padding: 2% 0%;
 }
 .expiry {
-    padding: 4%;
-    width: 74%;
+    	padding: 4%;
+    	width: 74%;
 }
 .rates1 p, .progress-gray {
-    font-size: 15px;
+    	font-size: 15px;
 }
 .rates1 #bold {
-    font-size: 16px;
+    	font-size: 16px;
 }
 .review-head {
-    font-size: 16px;
+    	font-size: 16px;
 }
 .highlight-head {
-    font-size: 16px;
+    	font-size: 16px;
 }
 .product-details-container2 {
-    width: 100%;
-    margin: 2%;
+    	width: 100%;
+    	margin: 2%;
 }
 .product-details-container2 form img {
-    vertical-align: middle;
+    	vertical-align: middle;
 }
 .product-details-container2 form button {
-    font-size: 17px;
+    	font-size: 17px;
 }
 #sold {
-    font-size: 12px;
+    	font-size: 12px;
 }
 #avnu, .sold p {
-    font-size: 11px;
+    	font-size: 11px;
 }
 .sold img {
-    width: 40%;
+    	width: 40%;
 }
 #view-seller, .highlight-details p {
-    font-size: 10px;
-    padding-top: 2%;
+    	font-size: 10px;
+    	padding-top: 2%;
 }
 .offer-details {
-    width: 80%;
+    	width: 80%;
 }
 .narrow-review{
-    margin: 4%;
+    	margin: 4%;
 }
 .review-head-button button {
-    margin: 1%;
+    	margin: 1%;
 	font-size: 13px;
 }
 .certify{
-    padding: 0 0.7%;
+    	padding: 0 0.7%;
 }
 .progress-gray{
-display:none;
+	display:none;
 }
 .long {
-    color: #312727;
-    font-size: 11px;
+    	color: #312727;
+    	font-size: 11px;
 }
 .progress-head {
-    font-size: 15px;
+    	font-size: 15px;
 }
 .certify p {
-    font-size: 10px;
+    	font-size: 10px;
 }
 .customer-image{
-    margin: 4%;
+    	margin: 4%;
 }
 .customer-img img {
-    width: 24%;
+    	width: 24%;
 }
 .variant button {
-    width: 74%;
+    	width: 74%;
 }
 .customer-review {
-    width: 96%;
+    	width: 96%;
 }
 .buyer-certify .material-icons {
-    font-size: 11px;
+    	font-size: 11px;
 }
 .buyer-certify {
-    font-size: 10px;
-    color: #988989;
+    	font-size: 10px;
+    	color: #988989;
 }
 .write-review button {
-    width: 87%;
+    	width: 87%;
 }
 .lip-picture {
-    display: block;
+    	display: block;
+    	text-align: center;
 }
 .lipproduct {
-    padding: 4%;
-    width: 56%;
-    margin: auto;
+    	padding: 4%;
+    	width: 56%;
+    	margin: auto;
 }
 .lipproduct p {
-    font-size: 15px;
+    	font-size: 15px;
 }
 .foot {
-    display: block;
+    	display: block;
 }
 .secure{
-    width: 50%;
-    margin: auto;
+    	width: 50%;
+    	margin: auto;
 }
 .secure img {
-    width: 78%;
+    	width: 78%;
 }
 .finder {
-    display: block;
-    text-align: center;
+    	display: block;
+    	text-align: center;
 }
 .foot-column .head {
 	white-space: nowrap;
-font-size: 9px;
+	font-size: 7px;
 }
 .foot-columnh {
-    display: none;
+    	display: none;
 }
 .layer2 {
-    display: block;
+    	display: block;
 }
 .connect {
-    display: block;
-    width: 100%;
+    	display: block;
+    	width: 100%;
 }
 #icon{
-    text-align: center;
+    	text-align: center;
 }
 .layer2 {
-    display: block;
-    text-align: center;
+    	display: block;
+    	text-align: center;
+}
+.pay {
+    	font-size: 11px;
+	margin-right: 10%;
+}
+#copyright {
+    	font-size: 8px;
 }
 }
