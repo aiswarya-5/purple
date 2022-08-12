@@ -289,6 +289,13 @@ header .material-icons{
 	margin-right: 9%;    
 	margin-left: 14%;
 }
+#contact-link{
+	text-decoration:none;
+	color: #767e85;
+}
+#contact-link:hover{
+	color: #e40b81;
+}
 .layer2 img{
 	width: 55%;
 	padding-left: 8%;
@@ -1832,11 +1839,8 @@ input[type=radio] {
 .cart-form button{
     	margin-left: 28%;
 }
-.symbol {
-    	justify-content: space-around;
-}
 .cartproduct {
-    	display: block;
+    	display: flex;
     	margin-bottom: 8%;
 }
 .cart h3{
@@ -1847,7 +1851,7 @@ input[type=radio] {
     	width: 58%;
 }
 .cart-image img{
-    	width: 100%;
+    	width: 84%;
        	margin-left: 29%;
     	margin-top: 6%;
 }
@@ -1866,23 +1870,35 @@ input[type=radio] {
     	margin: 4%;
 }
 .cart-image {
-    	width: 16%;
+    	width: 20%;
+}
+.symbol {
+    	justify-content: flex-start;
 }
 .cart-symbol{
-	font-size: 12px;
-    	margin-top: 5%;
+	font-size: 22px;
+    	margin-top: 2%;
+    	margin-left: 7%;
+}
+.cart-image2{
+    	width: 10%;
+}
+.cart-image2 img{
+    	width: 100%;
 }
 .cart-symbol h4{
 	text-align: center;
 }
 .cart-form button {
-    	margin-left: 5%;
+    	margin-left: 50%;
     	white-space: nowrap;
-    	font-size: 7px;
 }
 .cart-order {
     	width: 76%;
     	margin-left: 9%;
+}
+#submitbutn {
+    	padding: 3%;
 }
 .middleimage {
     	width: 17%;
@@ -2269,6 +2285,35 @@ header .material-icons {
 #cart-button {
     	padding: 3% 8%;
 }
+.cart h3 {
+    	margin: 7% 0;
+}
+.cart-image {
+    	width: 49%;
+}
+.cart-image img {
+    	width: 100%;
+    	margin-left: 41%;
+}
+.cart-image2 {
+    	width: 16%;
+}
+.cart-symbol {
+    	font-size: 15px;
+}
+.cart-symbol  img{
+    	font-size: 10px;
+}
+.cart-symbol p{
+    	font-size: 10px;
+}
+.cart-form button {
+	margin-left: 0%;
+    	font-size: 10px;
+}
+.cartproduct {
+    	display: block;
+}
 .colors {
     	margin: 3%;
 }
@@ -2429,5 +2474,8 @@ header .material-icons {
 }
 #copyright {
     	font-size: 8px;
+}
+.right-list {
+    	margin-left: 2%;
 }
 }

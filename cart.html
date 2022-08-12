@@ -15,7 +15,9 @@
 					<span class="material-icons">search</span>
 				</div>
 				<div class="middle">
-					<img src="image/logo.png" alt="logo">
+					<a href="purple.html">
+						<img src="image/logo.png" alt="logo">
+					</a>
 				</div>
 				<div class="right">
 					<div class="heart">
@@ -24,8 +26,9 @@
 					<div class="smile">
 						<img src="image/smile.jpg" alt="smile">
 						<div class="dropdown">
-							<button>Sign in</button>
-							<p> New Cutomer? <a href="account.html">Start here.</a></p>
+							<a href="purple.html">
+								<button>Logout</button>
+							</a>
 							<p>Your Orders</p>
 							<p>Your Account</p>
 							<p>Ellite Membership</p>
@@ -42,6 +45,38 @@
 			<div class="cart-container">
 				<div class="cart">
 					<h3>My Cart(2)</h3>
+					<div class="cartproduct">
+						<div class="cart-image">
+							<img src="image/cart4.png" alt="cart">
+						</div>
+						<div class="details">
+							<p>Khadi Essentials Pure Sweet Almond Body Massage Oil</p>
+							<p>Skin Tightening|Toning|Anti Ageing|Hair Nourishment</p>
+							<form>
+								<label class="quantity">Qty:</label>
+								<select name="amount" class="quantity">
+									<option value="q">1</option>
+									<option value="qu">2</option>
+									<option value="qua">3</option>
+									<option value="quan">4</option>
+									<option value="quant">5</option>
+								</select>
+							</form>
+								<div class="cart-a">
+								<a href="#">Remove</a>
+								<a href="#">Move to Wishlist</a>
+							</div>
+						</div>
+						<!-- DETAILS -->
+						<div class="cart-price">
+							<h4>₹183</h4>
+							<p>
+							<span class="cart-pricep">₹275</span>
+							<span class="cart-off">33% off</span>
+							</p>				     
+						</div>
+					</div>
+					<!--CART PRODUCT-->
 					<div class="cartproduct">
 						<div class="cart-image">
 							<img src="image/cart1.png" alt="cart">
@@ -174,7 +209,7 @@
 				<!--CART -->
 				<div class="cart-order">
 					<div class="symbol">
-						<div class="cart-image">
+						<div class="cart-image2">
 							<img src="image/cartsymbol.png" alt="symbol">
 						</div>
 						<div class="cart-symbol">
@@ -202,7 +237,9 @@
 							<p><span class="bold-letter">Order Total:</span><span class="bold-letters">₹1222</span></p>
 							<p><span>You Save:</span><span id="pink-letters">₹527</span></p>
 						</div>
-						<button id="submitbutn">Place Order</button>
+						<a href="checkout.html">
+							<button id="submitbutn">Place Order</button>
+						</a>
 					</div>
 				</div>
 				<!--CART-ORDER-->
